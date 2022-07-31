@@ -32,18 +32,21 @@ return(
 };
 
 export function getInterviewersForDay(state, day) {
-  let appts = [];
+  let interviewersID = [];
   state.days.forEach((elem) => {
     if (elem.name === day) {
-      appts = elem.appointments
+      interviewersID = elem.interviewers
     }
   })
 
-  const allAppts = []
-  for (const appt of appts) {
-    if (state.appointments[appt]) {
-      allAppts.push(state.appointments[appt])
-    }
-  }
-  return allAppts
+  // const allInterviewers = []
+  // for (const interviewerID of interviewers) {
+  //   if (state.interviewers[interviewerID]) {
+  //     allInterviewers.push(state.interviewers[interviewerID])
+  //   }
+  // }
+
+  const interviewersForDay = interviewersID.map(id => state.interviewers[id]);
+
+  return interviewersForDay
 }
