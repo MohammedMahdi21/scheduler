@@ -8,10 +8,13 @@ The App allow you to book an appointment between 12 pm and 5 pm, from Monday to 
 
 ## Final Project
 
+### Booking an appointment
 ![](https://github.com/MohammedMahdi21/scheduler/blob/master/docs/Interview%20Scheduler%20Gif-1.gif?raw=true)
 
+### Editing an appointment
 ![](https://github.com/MohammedMahdi21/scheduler/blob/master/docs/Interview%20Scheduler%20Gif-2.gif?raw=true)
 
+### Canceling an appointment
 ![](https://github.com/MohammedMahdi21/scheduler/blob/master/docs/Interview%20Scheduler%20Gif-3.gif?raw=true)
 
 ## Getting Started
