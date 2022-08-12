@@ -31,6 +31,7 @@ return(
 )
 };
 
+// Retrieve interviewers to show on Form component
 export function getInterviewersForDay(state, day) {
   let interviewersID = [];
   state.days.forEach((elem) => {
@@ -39,12 +40,6 @@ export function getInterviewersForDay(state, day) {
     }
   })
 
-  // const allInterviewers = []
-  // for (const interviewerID of interviewers) {
-  //   if (state.interviewers[interviewerID]) {
-  //     allInterviewers.push(state.interviewers[interviewerID])
-  //   }
-  // }
 
   const interviewersForDay = interviewersID.map(id => state.interviewers[id]);
 
