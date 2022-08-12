@@ -1,4 +1,5 @@
-# Interview Scheduler
+![Interview Scheduler](https://github.com/MohammedMahdi21/scheduler/blob/master/public/images/logo.png?raw=true)
+
 Interview Scheduler is a single-page application (SPA) using `React`, that allows users to book technical interviews between students and mentors.
 
 The App allow you to book an appointment between 12 pm and 5 pm, from Monday to Friday. When booking an appointment, the user enters his name and then chooses an interviewer from the list of interviewers. The user can save, modify or cancel the appointment.
